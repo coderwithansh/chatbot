@@ -2,5 +2,8 @@
   "buildCommand": "npm run build",
   "installCommand": "npm install",
   "outputDirectory": "dist",
-  "nodeVersion": "20.x"
+  "nodeVersion": "20.x",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
 }
