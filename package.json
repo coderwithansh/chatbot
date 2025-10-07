@@ -3,11 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-  "dev": "vite",         
-  "build": "vite build", 
-  "preview": "vite preview" 
-},
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "postinstall": "npm rebuild esbuild"
+}
+,
 
   "dependencies": {
     "axios": "^1.8.4",
